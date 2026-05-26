@@ -3,7 +3,7 @@ O objetivo é criar um jogo autoral utilizando o canvas, utilizamos html, css e 
 
 
 Integrantes do grupo:
-Alessandra Queiroz
-Amanda Tukamoto
-Breno Gonçalves
-Guilherme Gianini
+Alessandra Queiroz;
+Amanda Tukamoto;
+Breno Gonçalves;
+Guilherme Gianini.

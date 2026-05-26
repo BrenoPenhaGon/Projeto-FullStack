@@ -1,0 +1,111 @@
+/* página de instruções */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #120000, #3c0000);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* barra de navegação */
+.barra-de-navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.barra-de-navegacao a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.barra-de-navegacao a:hover {
+    color: #c9a84c;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    color: #c9a84c;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 15px rgba(201, 168, 76, 0.35);
+}
+
+/* parte das instruções */
+.instrucoes {
+    background: linear-gradient(135deg, #120000, #3c0000);
+    border: 4px solid #c9a84c;
+    border-radius: 10px;
+    min-height: 400px;
+    margin: 10px 100px 40px;
+    padding: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    box-shadow:
+        inset 0 0 30px rgba(0, 0, 0, 0.9),
+        0 0 20px rgba(201, 168, 76, 0.1);
+
+    transition: transform 0.3s ease;
+}
+
+.instrucoes:hover {
+    transform: translateY(-8px);
+}
+
+.instrucoes::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #c9a84c;
+    border-left: 2px solid #c9a84c;
+}
+
+.instrucoes::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid #c9a84c;
+    border-right: 2px solid #c9a84c;
+}
+
+.bloco-instrucao {
+    width: 45%;
+    text-align: center;
+    color: #dbcaa3;
+}
+
+.bloco-instrucao h3 {
+    color: #c9a84c;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.bloco-instrucao p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.linha-vertical {
+    width: 3px;
+    height: 320px;
+    background-color: #85641c;
+}

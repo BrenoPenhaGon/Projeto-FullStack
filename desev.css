@@ -1,0 +1,93 @@
+/* página de desenvolvedores */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #120000, #3c0000);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-height: 100vh;
+}
+
+/* barra de links */
+.barra-de-navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 25px;
+}
+
+.barra-de-navegacao a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.barra-de-navegacao a:hover {
+    color: #c9a84c;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    color: #c9a84c;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 15px rgba(201, 168, 76, 0.35);
+}
+
+/* parte dos cards */
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    padding: 40px;
+}
+
+/* card individual */
+.card {
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 260px;
+    padding: 25px 15px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* fotos */
+.card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #590000;
+    margin-bottom: 15px;
+}
+
+/* nome */
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+/* dados */
+.card p {
+    font-size: 14px;
+    margin: 6px 0;
+    word-break: break-word;
+}
+    
